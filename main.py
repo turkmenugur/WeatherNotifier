@@ -38,8 +38,8 @@ try:
         message = f"Sıcaklık: {temperature}°C\nNem: %{humidity}\nDurum: {condition}"
 
         # Bildirimi belirli bir saatte göndermek için saat ve dakika değerlerini ayarlayın
-        hour = 0
-        minute = 10
+        hour = 10
+        minute = 30
 
         # Şu anki saat ve dakika bilgisini alın
         concurrent_hour = datetime.datetime.now().hour
@@ -58,7 +58,7 @@ try:
                 app_icon="weathericon.ico",  # .ico formatında olması gerekir
                 timeout=30
             )
-        else:touch
+        else:
             # Bildirimi belirtilen saat ve dakikada göndermek için gerekli süreyi uyku moduna alın
             delay_seconds = delay_hours * 3600 + delay_minutes * 60
             time.sleep(delay_seconds)
