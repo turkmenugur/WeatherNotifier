@@ -13,3 +13,6 @@ api key https://www.weatherapi.com/ sitesinden alınmıştır.
 Tamamen kişisel kullanım için yapılmıştır. Herhangi bir ticari amaç içermez.
 
 Geliştirilmeye devam edilecektir.
+
+
+![Screenshot_1](https://github.com/turkmenugur/WeatherNotifier/assets/87937992/6c2d0733-2823-421a-bde7-724733c59a77)
